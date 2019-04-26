@@ -12,7 +12,8 @@ body {
   font-family: "raleway", helvetica;
 }
 #backdrop{
-   background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_GrX_j7rV1MTsPTshGIuSzM1Fkl4Qym42x07lERl4Pcgxynl1");
+   background-color:white;
+  top:35%;
   position:fixed;
   width:100%;
   height:100%;
@@ -123,9 +124,17 @@ li a:focus {
   grid-column-end:4;
   background-color:white;
 }
-#clean-title{
+#spacing1{
   grid-row-start:6;
   grid-row-end:7;
+  grid-column-start:1;
+  grid-column-end:4;
+  background-color:white;
+  height:100px;
+}
+#clean-title{
+  grid-row-start:7;
+  grid-row-end:8;
   grid-column-start:1;
   grid-column-end:2;
   font-size:50px;
@@ -134,27 +143,35 @@ li a:focus {
 }
 #clean-image{
   grid-row-start:7;
-  grid-row-end:6;
+  grid-row-end:8;
   grid-column-start:2;
   grid-column-end:3;
 }
 #clean-info{
-  grid-row-start:6;
-  grid-row-end:7;
+  grid-row-start:7;
+  grid-row-end:8;
   grid-column-start:3;
   grid-column-end:4;
   background-color:white;
 }
+#spacing2{
+  grid-row-start:8;
+  grid-row-end:9;
+  grid-column-start:1;
+  grid-column-end:4;
+  height:100px;
+  background-color:white;
+}
 #create-info{
-  grid-row-start:7;
-  grid-row-end:8;
+  grid-row-start:9;
+  grid-row-end:10;
   grid-column-start:1;
   grid-column-end:2;
   background-color:white;
 }
 #create-title{
-  grid-row-start:7;
-  grid-row-end:8;
+  grid-row-start:9;
+  grid-row-end:10;
   grid-column-start:2;
   grid-column-end:3;
   font-size:50px;
@@ -162,14 +179,14 @@ li a:focus {
   font-family: 'Gugi', cursive;
 }
 #create-image{
-  grid-row-start:7;
-  grid-row-end:8;
+  grid-row-start:9;
+  grid-row-end:10;
   grid-column-start:3;
   grid-column-end:4;
 }
 #why{
-  grid-row-start:8;
-  grid-row-end:9;
+  grid-row-start:10;
+  grid-row-end:11;
   grid-column-start:1;
   grid-column-end:4; 
   font-size:50px;
@@ -187,13 +204,15 @@ p{
   margin-right:5px;
 }
     
-    
-   </style>
-  <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+ <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
   
-  <div id=backdrop></div>
+  <div id=backdrop>
+    <img src = "http://clipart-library.com/images/Lcd5e8G6i.png" width=32%>
+     <img src = "https://cdn.mscdirect.com/global/images/ProductImages/7313828-21.jpg" width=33%>
+     <img src = "https://i.pinimg.com/originals/68/07/8d/68078d151c1344f306edef60a94164cf.png" width=33%>
+  </div>
   
 <div class="grid-container">
 <div id=links>
@@ -209,11 +228,10 @@ p{
 </div>
 
  <div id=intro>
-  <img id=logo src ="">
   <h2>Reduce. Reuse. Revive.</h2>
   <p>Revive is a plastic recycling workshop.  Revive creates a closed-loop system on Marquette's campus where plastic waste can be turned into beautiful and reusable products.This project began in fall of 2018 and is quickly gaining momentum. Browse around to learn more about the process and progress so far. <br><br></p>
   </div>
-  <div id=Logo><img src="/revive_cutout.png" height=200px></div>
+  <div id=Logo><img src=""></div>
   <div id=details>
   <h2>How does it work?</h2>
   </div>
@@ -222,12 +240,14 @@ p{
   <div id=collect-info><p><span class=callout>Collect:</span>The collection process begins the moment you (yes YOU!) toss your recyclable plastic item in the recycling bins on campus. The facility team then sets aside the bags for the Revive team to sort through! </p>
   <p><span class=callout>Sort:</span>After it's been collected, plastic is sorted by type and only types #1, #2, #4, and #5 are kept to use.  The remaining plastic, aluminum, paper, and glass is returned to recycling bags for other facilities to process.  As we sort, extra parts (like bottle caps) and labels are removed to make the cleaning process easier.</p>
   </div>
+  <div id=spacing1></div>
   <div id=clean-title><h2>Clean</h2></div>
   <div id=clean-image></div>
   <div id=clean-info>
    <p><span class=callout>Clean:</span>Next, all materials are cleaned from food/liquid contamination. Soft soap and water are used rather than harsh chemicals to avoid toxins and environmental contamination - and to cut down on $$.  </p>
     <p><span class=callout>Shred:</span>At this point the plastic is ready to be refined into small, usable flakes. A special machine is used to tear the solid materials into smaller pieces.</p>
     </div>
+  <div id=spacing2></div>
     <div id=create-info>
     <p><span class=callout>Inject:</span>Plasic shreds are sent through a machine that melts the plastics and injects them into solid molds.</p>
    <p><span class=callout>Sell:</span>Finally, the plastics are re-introduced into the Marquette and Milwaukee community to be used again (and again, and again...)</p>
@@ -261,3 +281,5 @@ Toggle.addEventListener("click", show);
 Toggle.addEventListener("dblclick", hide);
   
   </script>
+	  
+</html>	
