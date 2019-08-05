@@ -1,0 +1,14 @@
+.section{
+  border-radius:5px;
+  margin:20px;
+  padding:5px 5px 15px 5px;
+}
+#why{
+  border:solid #3498db;
+}
+#how{
+  border:solid #1abc9c;
+}
+#story{
+  border:solid #9b59b6;
+}
