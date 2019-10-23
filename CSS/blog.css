@@ -1,16 +1,38 @@
-p{ 
-  font-size: 1em;
-  margin:0% 5%;
-  text-align: justify; 
-  color: #888; }
 
-.entry{
-  border-top:solid #1abc9c 2px;
-  margin-bottom:20px;
+.grid-container{
+  display:grid;
+  grid-template-columns:auto auto auto;
+  grid-gap:50px;
+  padding:15px;
+  color:white;
 }
-.date{
-  text-align:right;
+.grid-container > div{
+  padding:50px;
+  border-radius:20px;
 }
-#events{
-  text-align:left;
+.grid-container p{
+  color:white;
+  font-size:20px;
+}
+.grid-container a{
+  text-decoration:none;
+  font-size:20px;
+}
+.collection{
+  border:solid rgb(26,188,156) 7px;
+}
+.RAA{
+  border:solid rgb(230,126,34) 7px;
+}
+.earthweek{
+  border:solid rgb(155,89,182) 7px;
+}
+.consumers{
+   border:solid rgb(52,152,219) 7px;
+}
+.shopping{
+   border:solid rgb(231,76,60) 7px;
+}
+.trashlegacy{
+   border:solid rgb(26,188,156) 7px;
 }
