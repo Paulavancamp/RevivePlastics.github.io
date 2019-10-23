@@ -1,4 +1,9 @@
-
+#topPic{
+  margin:20px 0 50px;
+  opacity:.8;
+  width:50%;
+  border-radius:15px;
+}
 .grid-container{
   display:grid;
   grid-template-columns:auto auto;
