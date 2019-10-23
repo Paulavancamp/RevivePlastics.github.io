@@ -1,0 +1,40 @@
+
+.grid-container{
+  display:grid;
+  grid-template-columns:auto auto;
+  grid-gap:40px;
+  padding:10px;
+  color:white;
+}
+.grid-container > div{
+  padding:15px;
+  border-radius:20px;
+}
+.grid-container p{
+  color:white;
+  font-size:20px;
+}
+.energy{
+  grid-row-start:1;
+  grid-column-start:1;
+  grid-column-end:3;
+  background-color:rgb(26,188,156);
+}
+.money{
+  grid-row-start:3;
+  grid-column-start:1;
+  grid-column-end:3;
+  background-color:rgb(26,188,156);
+}
+.space{
+  background-color:rgb(155,89,182);
+}
+.concervation{
+   background-color:rgb(230,126,34);
+}
+.economy{
+   background-color:rgb(231,76,60);
+}
+.mindfulness{
+   background-color:rgb(52,152,219);
+}
